@@ -1,11 +1,11 @@
 
-# 👥 Employee Turnover Analytics Pipeline
+# Employee Turnover Analytics Pipeline
 
 An end-to-end **HR Analytics** and **Machine Learning** project focused on predicting employee attrition and identifying the key factors that influence workforce turnover. The project combines **Exploratory Data Analysis (EDA)**, **unsupervised learning**, **class imbalance handling**, and **supervised machine learning** to provide actionable insights that support employee retention strategies.
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 Employee attrition is one of the most significant challenges organizations face, leading to increased recruitment costs, productivity loss, and knowledge gaps.
 
@@ -19,7 +19,7 @@ This project develops a predictive analytics pipeline that helps organizations:
 
 ---
 
-# 🎯 Objectives
+# Objectives
 
 - Analyze employee behavior and satisfaction patterns.
 - Identify the major factors contributing to employee turnover.
@@ -30,7 +30,7 @@ This project develops a predictive analytics pipeline that helps organizations:
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 The project uses an HR Analytics dataset containing **14,999 employee records**.
 
@@ -52,7 +52,7 @@ The project uses an HR Analytics dataset containing **14,999 employee records**.
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 ### Programming
 
@@ -79,7 +79,7 @@ The project uses an HR Analytics dataset containing **14,999 employee records**.
 
 ---
 
-# 📂 Project Workflow
+# Project Workflow
 
 ## 1️⃣ Data Auditing & Quality Assessment
 
@@ -116,21 +116,21 @@ EDA was conducted to understand employee behavior and uncover patterns associate
 
 ---
 
-# 📈 Key Business Insights
+# Key Business Insights
 
-## 😊 Employee Satisfaction
+## Employee Satisfaction
 
 Employees with lower satisfaction scores showed a significantly higher likelihood of leaving the organization.
 
 ---
 
-## 📊 Performance Evaluation
+## Performance Evaluation
 
 High-performing employees were not always retained, suggesting that performance alone does not guarantee employee retention.
 
 ---
 
-## ⏰ Workload Analysis
+## Workload Analysis
 
 A non-linear relationship was observed between workload and attrition.
 
@@ -147,7 +147,7 @@ Employees managing **3–4 projects** demonstrated the highest retention levels.
 
 ---
 
-# 👥 Employee Segmentation (K-Means Clustering)
+# Employee Segmentation (K-Means Clustering)
 
 To better understand employees who left the organization, K-Means clustering was applied using:
 
@@ -170,7 +170,7 @@ This segmentation provides valuable insights for designing targeted employee ret
 
 ---
 
-# ⚙️ Data Preprocessing
+# Data Preprocessing
 
 Several preprocessing techniques were applied before model training.
 
@@ -184,7 +184,7 @@ Several preprocessing techniques were applied before model training.
 
 ---
 
-# ⚖️ Handling Class Imbalance
+# Handling Class Imbalance
 
 Since employee attrition represented a minority class, **SMOTE (Synthetic Minority Over-sampling Technique)** was applied exclusively to the training dataset.
 
@@ -197,7 +197,7 @@ Since employee attrition represented a minority class, **SMOTE (Synthetic Minori
 
 ---
 
-# 🤖 Machine Learning Models
+# Machine Learning Models
 
 Three supervised learning models were developed and compared.
 
@@ -209,7 +209,7 @@ Three supervised learning models were developed and compared.
 
 ---
 
-# 🔄 Model Development Pipeline
+# Model Development Pipeline
 
 ```mermaid
 flowchart TD
@@ -227,7 +227,7 @@ flowchart TD
 
 ---
 
-# 🧩 Complete Analytics Pipeline
+# Complete Analytics Pipeline
 
 ```mermaid
 flowchart LR
@@ -268,7 +268,7 @@ flowchart LR
 
 ---
 
-# 📊 Model Evaluation
+# Model Evaluation
 
 To ensure reliable model performance, a **5-Fold Stratified Cross-Validation** framework was implemented.
 
@@ -286,7 +286,7 @@ This evaluation strategy provides a more robust estimate of model performance co
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```text
 employee-turnover-analytics/
@@ -297,7 +297,7 @@ employee-turnover-analytics/
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Clone the Repository
 
@@ -309,7 +309,7 @@ cd employee-turnover-analytics
 
 ---
 
-# 💼 Business Impact
+# Business Impact
 
 This project demonstrates how HR analytics can support organizational decision-making by:
 
@@ -321,7 +321,7 @@ This project demonstrates how HR analytics can support organizational decision-m
 
 ---
 
-# 📌 Skills Demonstrated
+# Skills Demonstrated
 
 - HR Analytics
 - Exploratory Data Analysis (EDA)
@@ -338,7 +338,7 @@ This project demonstrates how HR analytics can support organizational decision-m
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 - XGBoost & LightGBM Comparison
 - Hyperparameter Optimization
@@ -350,7 +350,7 @@ This project demonstrates how HR analytics can support organizational decision-m
 
 ---
 
-# 📫 Contact
+# Contact
 
 **Arun Kumar**
 
@@ -360,9 +360,9 @@ This project demonstrates how HR analytics can support organizational decision-m
 
 ---
 
-# ⭐ Support
+# Support
 
-If you found this project useful, consider giving the repository a **⭐ Star**.
+If you found this project useful, consider giving the repository a ** Star**.
 
 Feedback, suggestions, and collaboration opportunities are always welcome!
 
